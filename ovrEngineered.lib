@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 5/17/2015 3:13:26 PM
+EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
 # ANT_CHIP_2.4GHz
@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3  Date: 5/17/2015 3:13:26 PM
 DEF ~ANT_CHIP_2.4GHz ANT 0 40 N N 1 F N
 F0 "ANT" 0 -50 60 H V C CNN
 F1 "ANT_CHIP_2.4GHz" 0 -150 60 H I C CNN
-F2 "~" 350 -50 60 H I C CNN
+F2 "" 350 -50 60 H I C CNN
 F3 "http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/1001312_May2013.pdf" 200 -350 60 H I C CNN
 F4 "Ethertronics" -300 -250 60 H I C CNN "Manufacturer"
 F5 "1001312" 450 -250 60 H I C CNN "Man. Part Num."
@@ -27,7 +27,7 @@ ENDDEF
 DEF ATMEL_ATXMEGA16D4-AU U 0 40 Y Y 1 F N
 F0 "U" -200 1900 60 H V C CNN
 F1 "ATMEL_ATXMEGA16D4-AU" 0 150 60 H V C CNN
-F2 "~" 200 50 60 H I C CNN
+F2 "" 200 50 60 H I C CNN
 F3 "http://www.atmel.com/Images/Atmel-8135-8-and-16-bit-AVR-microcontroller-ATxmega16D4-32D4-64D4-128D4_datasheet.pdf" 100 -50 60 H I C CNN
 F4 "Atmel" -250 50 60 H I C CNN "Manufacturer"
 F5 "ATXMEGA16D4-AUR" 1050 100 60 H I C CNN "Man. Part Num."
@@ -90,7 +90,7 @@ ENDDEF
 DEF ATMEL_ATXMEGA16E5-MUR U 0 40 Y Y 1 F N
 F0 "U" -200 1450 60 H V C CNN
 F1 "ATMEL_ATXMEGA16E5-MUR" 0 150 60 H V C CNN
-F2 "~" 200 50 60 H I C CNN
+F2 "" 200 50 60 H I C CNN
 F3 "http://www.atmel.com/Images/Atmel-8153-8-and-16-bit-AVR-Microcontroller-XMEGA-E-ATxmega8E5-ATxmega16E5-ATxmega32E5_Datasheet.pdf" 100 -50 60 H I C CNN
 F4 "Atmel" -250 50 60 H I C CNN "Manufacturer"
 F5 "ATXMEGA16E5-MUR" 1050 100 60 H I C CNN "Man. Part Num."
@@ -141,7 +141,7 @@ ENDDEF
 DEF ATMEL_ATXMEGA192A3U-AU U 0 40 Y Y 1 F N
 F0 "U" 0 2150 60 H V C CNN
 F1 "ATMEL_ATXMEGA192A3U-AU" 0 150 60 H V C CNN
-F2 "~" 200 50 60 H I C CNN
+F2 "" 200 50 60 H I C CNN
 F3 "http://www.atmel.com/Images/Atmel-8386-8-and-16-bit-AVR-Microcontroller-ATxmega64A3U-128A3U-192A3U-256A3U_datasheet.pdf" 100 -50 60 H I C CNN
 F4 "Atmel" -250 50 60 H I C CNN "Manufacturer"
 F5 "ATXMEGA192A3U-AUR" 1050 100 60 H I C CNN "Man. Part Num."
@@ -224,7 +224,7 @@ ENDDEF
 DEF BATTERY_AA_THRUHOLE J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "BATTERY_AA_THRUHOLE" 0 -150 60 H V C CNN
-F2 "~" 300 -50 60 H I C CNN
+F2 "" 300 -50 60 H I C CNN
 F3 "http://www.keyelco.com/product-pdf.cfm?p=1027" 200 -350 60 H I C CNN
 F4 "Keystone Electronics" -300 -250 60 H I C CNN "Manufacturer"
 F5 "2462" 450 -250 60 H I C CNN "Man. Part Num."
@@ -245,12 +245,12 @@ ENDDEF
 DEF BLUEGIGA_BLE113 U 0 40 Y Y 1 F N
 F0 "U" -350 1300 60 H V C CNN
 F1 "BLUEGIGA_BLE113" 0 150 60 H V C CNN
-F2 "~" 200 50 60 H I C CNN
+F2 "" 200 50 60 H I C CNN
 F3 "http://media.digikey.com/pdf/Data%20Sheets/BlueGiga%20PDFs/BLE113.pdf" 100 -50 60 H I C CNN
 F4 "BlueGiga" -250 50 60 H I C CNN "Manufacturer"
-F5 "BLE113-A-V1" 1050 100 60 H I C CNN "Man. Part Num."
+F5 "BLE113-A-M256K" 1050 100 60 H I C CNN "Man. Part Num."
 F6 "Digi-Key" -200 -150 60 H I C CNN "Supplier"
-F7 "1446-1028-1-ND" 450 -150 60 H I C CNN "Supplier Part Num."
+F7 "1446-1035-1-ND" 450 -150 60 H I C CNN "Supplier Part Num."
 $FPLIST
  BLE113
 $ENDFPLIST
@@ -295,329 +295,102 @@ X P0_4 29 -550 1000 150 R 25 25 1 1 B
 ENDDRAW
 ENDDEF
 #
-# C_0.022uF_16v_0603
+# CONN_100MIL_2
 #
-DEF ~C_0.022uF_16v_0603 C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_0.022uF_16v_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C223KA01-01.pdf" 200 -350 60 H I C CNN
-F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
-F5 "GRM188R71C223KA01D" 450 -250 60 H I C CNN "Man. Part Num."
+DEF CONN_100MIL_2 J 0 40 Y Y 1 F N
+F0 "J" 0 -50 60 H V C CNN
+F1 "CONN_100MIL_2" 0 -150 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
+F3 "http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf" 200 -350 60 H I C CNN
+F4 "Amphenol" -300 -250 60 H I C CNN "Manufacturer"
+F5 "68001-402HLF" 450 -250 60 H I C CNN "Man. Part Num."
 F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "490-1527-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "0.022uF" 0 150 60 H V C CNN "Comp. Value"
+F7 "609-3507-ND" 450 -450 60 H I C CNN "Supplier Part Num."
 $FPLIST
- C_0603
+ SIP_100MIL_2
 $ENDFPLIST
 DRAW
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  -50 100  -50 0 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
+S 0 150 50 0 0 1 0 N
+X ~ 1 -150 100 150 R 25 25 1 1 P
+X ~ 2 -150 50 150 R 25 25 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_0.033uF_16v_0603
+# CONN_100MIL_3
 #
-DEF ~C_0.033uF_16v_0603 C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_0.033uF_16v_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C333KA01-01.pdf" 200 -350 60 H I C CNN
-F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
-F5 "GRM188R71C333KA01D" 450 -250 60 H I C CNN "Man. Part Num."
+DEF CONN_100MIL_3 J 0 40 Y Y 1 F N
+F0 "J" 0 -50 60 H V C CNN
+F1 "CONN_100MIL_3" 0 -150 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
+F3 "http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf" 200 -350 60 H I C CNN
+F4 "Amphenol" -300 -250 60 H I C CNN "Manufacturer"
+F5 "68001-403HLF" 450 -250 60 H I C CNN "Man. Part Num."
 F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "490-1528-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "0.033uF" 0 150 60 H V C CNN "Comp. Value"
+F7 "609-3471-ND" 450 -450 60 H I C CNN "Supplier Part Num."
 $FPLIST
- C_0603
+ SIP_100MIL_3
 $ENDFPLIST
 DRAW
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  -50 100  -50 0 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
+S 0 200 50 0 0 1 0 N
+X ~ 1 -150 150 150 R 25 25 1 1 P
+X ~ 2 -150 100 150 R 25 25 1 1 P
+X ~ 3 -150 50 150 R 25 25 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_0.1uF_10v_0603
+# CONN_100MIL_9
 #
-DEF ~C_0.1uF_10v_0603 C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_0.1uF_10v_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" 200 -350 60 H I C CNN
-F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
-F5 "GRM188R71C104KA01D" 450 -250 60 H I C CNN "Man. Part Num."
+DEF CONN_100MIL_9 J 0 40 Y Y 1 F N
+F0 "J" 0 -50 60 H V C CNN
+F1 "CONN_100MIL_9" 0 -150 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
+F3 "http://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf" 200 -350 60 H I C CNN
+F4 "Sullins Connector" -300 -250 60 H I C CNN "Manufacturer"
+F5 "PRPC009SAAN-RC" 450 -250 60 H I C CNN "Man. Part Num."
 F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "490-1532-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "0.1uF" 0 150 60 H V C CNN "Comp. Value"
+F7 "S1011EC-09-ND " 450 -450 60 H I C CNN "Supplier Part Num."
 $FPLIST
- C_0603
+ SIP_100MIL_9
 $ENDFPLIST
 DRAW
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  -50 100  -50 0 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
+S -50 550 0 50 0 1 0 N
+X ~ 1 -200 500 150 R 25 25 1 1 P
+X ~ 2 -200 450 150 R 25 25 1 1 P
+X ~ 3 -200 400 150 R 25 25 1 1 P
+X ~ 4 -200 350 150 R 25 25 1 1 P
+X ~ 5 -200 300 150 R 25 25 1 1 P
+X ~ 6 -200 250 150 R 25 25 1 1 P
+X ~ 7 -200 200 150 R 25 25 1 1 P
+X ~ 8 -200 150 150 R 25 25 1 1 P
+X ~ 9 -200 100 150 R 25 25 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_1.0pF_100v_0603
+# CONN_2MM_9
 #
-DEF ~C_1.0pF_100v_0603 C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_1.0pF_100v_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM1885C2A1R0BB01-01.pdf" 200 -350 60 H I C CNN
-F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
-F5 "GQM1885C2A1R0BB01D" 450 -250 60 H I C CNN "Man. Part Num."
+DEF CONN_2MM_9 J 0 40 Y Y 1 F N
+F0 "J" 0 -50 60 H V C CNN
+F1 "CONN_2MM_9" 0 -150 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
+F3 "http://multimedia.3m.com/mws/media/438474O/3mtm-pin-strip-header-ts2156.pdf" 200 -350 60 H I C CNN
+F4 "3M" -300 -250 60 H I C CNN "Manufacturer"
+F5 "951109-8622-AR" 450 -250 60 H I C CNN "Man. Part Num."
 F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "490-6090-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "1.0pF" 0 150 60 H V C CNN "Comp. Value"
+F7 "3M9328-ND" 450 -450 60 H I C CNN "Supplier Part Num."
 $FPLIST
- C_0603
+ SIP_2MM_9
 $ENDFPLIST
 DRAW
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  -50 100  -50 0 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# C_1.5pF_100v_0603
-#
-DEF ~C_1.5pF_100v_0603 C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_1.5pF_100v_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM1885C2A1R5BB01-01.pdf" 200 -350 60 H I C CNN
-F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
-F5 "GQM1885C2A1R5BB01D" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "490-6091-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "1.5pF" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- C_0603
-$ENDFPLIST
-DRAW
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  -50 100  -50 0 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# C_1000uF_60v_RAD
-#
-DEF ~C_1000uF_60v_RAD C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_1000uF_60v_RAD" 0 -150 60 H I C CNN
-F2 "~" 450 -50 60 H I C CNN
-F3 "http://nichicon-us.com/english/products/pdfs/e-vr.pdf" 200 -350 60 H I C CNN
-F4 "Nichicon" -300 -250 60 H I C CNN "Manufacturer"
-F5 "UVR1J102MHD" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "493-1129-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "1000uF" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- UVR1J102MHD
- UVR1J102MHD_RA
-$ENDFPLIST
-DRAW
-A -100 50 71 450 -450 0 1 0 N -50 100 -50 0
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# C_10uF_10v_0805
-#
-DEF ~C_10uF_10v_0805 C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_10uF_10v_0805" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf" 200 -350 60 H I C CNN
-F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
-F5 "GRM21BR71A106KE51L" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "490-3905-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "10uF" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- C_0805
-$ENDFPLIST
-DRAW
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  -50 100  -50 0 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# C_15pF_50v_0603
-#
-DEF ~C_15pF_50v_0603 C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_15pF_50v_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2A6R0CB01-01.pdf" 200 -350 60 H I C CNN
-F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
-F5 "GQM1885C1H150JB01D" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "490-3572-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "15pF" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- C_0603
-$ENDFPLIST
-DRAW
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  -50 100  -50 0 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# C_1uF_10v_0805
-#
-DEF ~C_1uF_10v_0805 C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_1uF_10v_0805" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf" 200 -350 60 H I C CNN
-F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
-F5 "GRM21BR71A105KA01L" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "490-1695-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "1uF" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- C_0805
-$ENDFPLIST
-DRAW
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  -50 100  -50 0 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# C_2200pF_50v_0603
-#
-DEF ~C_2200pF_50v_0603 C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_2200pF_50v_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H222KA01-01.pdf" 200 -350 60 H I C CNN
-F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
-F5 "GRM188R71H222KA01D" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "	490-1500-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "2200pF" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- C_0603
-$ENDFPLIST
-DRAW
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  -50 100  -50 0 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# C_22pF_50v_0603
-#
-DEF ~C_22pF_50v_0603 C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_22pF_50v_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM1885C1H220JB01-01.pdf" 200 -350 60 H I C CNN
-F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
-F5 "GQM1885C1H220JB01D" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "490-3575-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "22pF" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- C_0603
-$ENDFPLIST
-DRAW
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  -50 100  -50 0 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# C_4.7pF_100v_0603
-#
-DEF ~C_4.7pF_100v_0603 C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_4.7pF_100v_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C2A4R7CA01-01.pdf" 200 -350 60 H I C CNN
-F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
-F5 "GRM1885C2A4R7CA01D" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "490-6392-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "4.7pF" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- C_0603
-$ENDFPLIST
-DRAW
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  -50 100  -50 0 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# C_6pF_100v_0805
-#
-DEF ~C_6pF_100v_0805 C 0 40 N N 1 F N
-F0 "C" 0 -50 60 H V C CNN
-F1 "C_6pF_100v_0805" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2A6R0CB01-01.pdf" 200 -350 60 H I C CNN
-F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
-F5 "GQM2195C2A6R0CB01D" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "490-3594-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "6pF" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- C_0805
-$ENDFPLIST
-DRAW
-P 2 0 1 0  -100 50  -50 50 N
-P 2 0 1 0  -50 100  -50 0 N
-P 2 0 1 0  50 50  100 50 N
-P 2 0 1 0  50 100  50 0 N
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
+S -50 550 0 50 0 1 0 N
+X ~ 1 -200 500 150 R 25 25 1 1 P
+X ~ 2 -200 450 150 R 25 25 1 1 P
+X ~ 3 -200 400 150 R 25 25 1 1 P
+X ~ 4 -200 350 150 R 25 25 1 1 P
+X ~ 5 -200 300 150 R 25 25 1 1 P
+X ~ 6 -200 250 150 R 25 25 1 1 P
+X ~ 7 -200 200 150 R 25 25 1 1 P
+X ~ 8 -200 150 150 R 25 25 1 1 P
+X ~ 9 -200 100 150 R 25 25 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -626,7 +399,7 @@ ENDDEF
 DEF CONN_AC_UPC_RA J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_AC_UPC_RA" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.qualtekusa.com/Catalog/AC_Receptacles/pdfs/703w0053.pdf" 200 -350 60 H I C CNN
 F4 "Qualtek" -300 -250 60 H I C CNN "Manufacturer"
 F5 "703W-00/53" 450 -250 60 H I C CNN "Man. Part Num."
@@ -648,7 +421,7 @@ ENDDEF
 DEF CONN_BARREL_ID2.1MM_OD5.5MM J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_BARREL_ID2.1MM_OD5.5MM" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.cui.com/product/resource/digikeypdf/pj-037a.pdf" 200 -350 60 H I C CNN
 F4 "CUI Inc" -300 -250 60 H I C CNN "Manufacturer"
 F5 "	" 450 -250 60 H I C CNN "Man. Part Num."
@@ -672,7 +445,7 @@ ENDDEF
 DEF CONN_BOARDEDGE_20 J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_BOARDEDGE_20" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.edac.net/file_library/pcatalog2/3_EDAC%20Catalog.07.2014.pdf#page=19" 200 -350 60 H I C CNN
 F4 "EDAC Inc" -300 -250 60 H I C CNN "Manufacturer"
 F5 "345-020-558-201" 450 -250 60 H I C CNN "Man. Part Num."
@@ -711,7 +484,7 @@ ENDDEF
 DEF CONN_BOARDEDGE_20_FINGERS J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_BOARDEDGE_20_FINGERS" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.edac.net/file_library/pcatalog2/3_EDAC%20Catalog.07.2014.pdf#page=19" 200 -350 60 H I C CNN
 F4 "EDAC Inc" -300 -250 60 H I C CNN "Manufacturer"
 F5 "345-020-558-201" 450 -250 60 H I C CNN "Man. Part Num."
@@ -748,7 +521,7 @@ ENDDEF
 DEF CONN_DBG_PDI J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_DBG_PDI" 0 -150 60 H V C CNN
-F2 "~" 650 -150 60 H I C CNN
+F2 "" 650 -150 60 H I C CNN
 F3 "http://www.tag-connect.com/Materials/TC2030-IDC.pdf" 200 -350 60 H I C CNN
 F4 "Tag Connect" -300 -250 60 H I C CNN "Manufacturer"
 F5 "TC2030-IDC" 450 -250 60 H I C CNN "Man. Part Num."
@@ -773,7 +546,7 @@ ENDDEF
 DEF CONN_DF11_16_VERT J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_DF11_16_VERT" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.hirose.co.jp/cataloge_hp/2d/EDCX3-162391-03.pdf" 200 -350 60 H I C CNN
 F4 "Hirose" -300 -250 60 H I C CNN "Manufacturer"
 F5 "DF11-16DP-2DSA(24)" 450 -250 60 H I C CNN "Man. Part Num."
@@ -808,7 +581,7 @@ ENDDEF
 DEF CONN_DF11_4_VERT J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_DF11_4_VERT" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.hirose.co.jp/cataloge_hp/2d/EDCX3-162391-03.pdf" 200 -350 60 H I C CNN
 F4 "Hirose" -300 -250 60 H I C CNN "Manufacturer"
 F5 "DF11-4DP-2DSA(24)" 450 -250 60 H I C CNN "Man. Part Num."
@@ -831,7 +604,7 @@ ENDDEF
 DEF CONN_DF11_6_VERT J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_DF11_6_VERT" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.hirose.co.jp/cataloge_hp/2d/EDCX3-162391-03.pdf" 200 -350 60 H I C CNN
 F4 "Hirose" -300 -250 60 H I C CNN "Manufacturer"
 F5 "DF11-6DP-2DSA(24)" 450 -250 60 H I C CNN "Man. Part Num."
@@ -856,7 +629,7 @@ ENDDEF
 DEF CONN_DF11_8_VERT J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_DF11_8_VERT" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.hirose.co.jp/cataloge_hp/2d/EDCX3-162391-03.pdf" 200 -350 60 H I C CNN
 F4 "Hirose" -300 -250 60 H I C CNN "Manufacturer"
 F5 "DF11-8DP-2DSA(01)" 450 -250 60 H I C CNN "Man. Part Num."
@@ -883,7 +656,7 @@ ENDDEF
 DEF CONN_MICROFIT_16_VERT J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_MICROFIT_16_VERT" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.molex.com/pdm_docs/sd/430450612_sd.pdf" 200 -350 60 H I C CNN
 F4 "Molex" -300 -250 60 H I C CNN "Manufacturer"
 F5 "0430451612" 450 -250 60 H I C CNN "Man. Part Num."
@@ -918,7 +691,7 @@ ENDDEF
 DEF CONN_MICROFIT_2_RA J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_MICROFIT_2_RA" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.molex.com/pdm_docs/sd/436500200_sd.pdf" 200 -350 60 H I C CNN
 F4 "Molex" -300 -250 60 H I C CNN "Manufacturer"
 F5 "0436500200" 450 -250 60 H I C CNN "Man. Part Num."
@@ -939,7 +712,7 @@ ENDDEF
 DEF CONN_MICROFIT_2_VERT J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_MICROFIT_2_VERT" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.molex.com/pdm_docs/sd/436500215_sd.pdf" 200 -350 60 H I C CNN
 F4 "Molex" -300 -250 60 H I C CNN "Manufacturer"
 F5 "436500215" 450 -250 60 H I C CNN "Man. Part Num."
@@ -960,7 +733,7 @@ ENDDEF
 DEF CONN_MICROFIT_4_VERT J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_MICROFIT_4_VERT" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.molex.com/pdm_docs/sd/430450427_sd.pdf" 200 -350 60 H I C CNN
 F4 "Molex" -300 -250 60 H I C CNN "Manufacturer"
 F5 "0430450412" 450 -250 60 H I C CNN "Man. Part Num."
@@ -983,7 +756,7 @@ ENDDEF
 DEF CONN_MICROFIT_6_VERT J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "CONN_MICROFIT_6_VERT" 0 -150 60 H V C CNN
-F2 "~" 0 -100 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
 F3 "http://www.molex.com/pdm_docs/sd/430450612_sd.pdf" 200 -350 60 H I C CNN
 F4 "Molex" -300 -250 60 H I C CNN "Manufacturer"
 F5 "0430450612" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1008,7 +781,7 @@ ENDDEF
 DEF CONN_RJ45_MAG_RA J 0 40 Y Y 1 F N
 F0 "J" -100 700 60 H V C CNN
 F1 "CONN_RJ45_MAG_RA" 0 -150 60 H V C CNN
-F2 "~" 0 150 60 H V C CNN
+F2 "" 0 150 60 H V C CNN
 F3 "http://productfinder.pulseeng.com/products/datasheets/J414.pdf" 200 -350 60 H I C CNN
 F4 "Pulse Electronics" -300 -250 60 H I C CNN "Manufacturer"
 F5 "J00-0045NL" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1049,7 +822,7 @@ ENDDEF
 DEF CONN_RJ45_RA J 0 40 Y Y 1 F N
 F0 "J" -50 750 60 H V C CNN
 F1 "CONN_RJ45_RA" 0 -150 60 H V C CNN
-F2 "~" 50 200 60 H V C CNN
+F2 "" 50 200 60 H V C CNN
 F3 "http://productfinder.pulseeng.com/products/datasheets/E6588-52L184-L.pdf" 200 -350 60 H I C CNN
 F4 "Pulse Electronics" -300 -250 60 H I C CNN "Manufacturer"
 F5 "E6588-52L184-L" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1078,7 +851,7 @@ ENDDEF
 DEF ~CRYSTAL_16MHZ_12pF X 0 40 N N 1 F N
 F0 "X" 0 -50 60 H V C CNN
 F1 "CRYSTAL_16MHZ_12pF" 0 -150 60 H I C CNN
-F2 "~" 500 -50 60 H I C CNN
+F2 "" 500 -50 60 H I C CNN
 F3 "http://www.txccrystal.com/images/pdf/7v.pdf" 200 -350 60 H I C CNN
 F4 "TXC Corp" -300 -250 60 H I C CNN "Manufacturer"
 F5 "7V-16.000MAAE-T" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1104,7 +877,7 @@ ENDDEF
 DEF ~CRYSTAL_25MHZ_6pF X 0 40 N N 1 F N
 F0 "X" 0 -50 60 H V C CNN
 F1 "CRYSTAL_25MHZ_6pF" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.murata.com/products/catalog/pdf/p79e.pdf" 200 -350 60 H I C CNN
 F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
 F5 "XRCGB25M000F0L00R0" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1129,7 +902,7 @@ ENDDEF
 DEF ~CRYSTAL_48MHZ_6pF X 0 40 N N 1 F N
 F0 "X" 0 -50 60 H V C CNN
 F1 "CRYSTAL_48MHZ_6pF" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.murata.com/products/catalog/pdf/p79e.pdf" 200 -350 60 H I C CNN
 F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
 F5 "XRCGB48M000F0L00R0" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1149,47 +922,379 @@ X ~ 3 150 50 50 L 25 25 1 1 I
 ENDDRAW
 ENDDEF
 #
-# D_SCH_20V_1A
+# C_0.022uF_16v_0603
 #
-DEF ~D_SCH_20V_1A D 0 40 N N 1 F N
-F0 "D" 0 -50 60 H V C CNN
-F1 "D_SCH_20V_1A" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "http://www.diodes.com/datasheets/ds13002.pdf" 200 -350 60 H I C CNN
-F4 "Diodes Incorporated" -300 -250 60 H I C CNN "Manufacturer"
-F5 "B120B-13-F" 450 -250 60 H I C CNN "Man. Part Num."
+DEF ~C_0.022uF_16v_0603 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_0.022uF_16v_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C223KA01-01.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GRM188R71C223KA01D" 450 -250 60 H I C CNN "Man. Part Num."
 F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "B120B-FDICT-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F7 "490-1527-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "0.022uF" 0 150 60 H V C CNN "Comp. Value"
 $FPLIST
- SMB
+ C_0603
 $ENDFPLIST
 DRAW
-P 4 0 1 0  -50 100  50 150  50 50  -50 100 N
-P 7 0 1 0  -100 150  -100 200  -50 200  -50 150  -50 0  0 0  0 50 N
-X ~ 1 100 100 50 L 25 25 1 1 I
-X ~ 2 -100 100 50 R 25 25 1 1 I
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
 ENDDRAW
 ENDDEF
 #
-# D_SCH_60V_3A
+# C_0.033uF_16v_0603
 #
-DEF ~D_SCH_60V_3A D 0 40 N N 1 F N
-F0 "D" 0 -50 60 H V C CNN
-F1 "D_SCH_60V_3A" 0 -150 60 H I C CNN
-F2 "~" 200 -50 60 H I C CNN
-F3 "http://www.diodes.com/datasheets/ds30924.pdf" 200 -350 60 H I C CNN
-F4 "Diodes Incorporated" -300 -250 60 H I C CNN "Manufacturer"
-F5 "B360B-13-F" 450 -250 60 H I C CNN "Man. Part Num."
+DEF ~C_0.033uF_16v_0603 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_0.033uF_16v_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C333KA01-01.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GRM188R71C333KA01D" 450 -250 60 H I C CNN "Man. Part Num."
 F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "B360B-FDICT-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F7 "490-1528-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "0.033uF" 0 150 60 H V C CNN "Comp. Value"
 $FPLIST
- SMB
+ C_0603
 $ENDFPLIST
 DRAW
-P 4 0 1 0  -50 100  50 150  50 50  -50 100 N
-P 7 0 1 0  -100 150  -100 200  -50 200  -50 150  -50 0  0 0  0 50 N
-X ~ 1 100 100 50 L 25 25 1 1 I
-X ~ 2 -100 100 50 R 25 25 1 1 I
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_0.1uF_10v_0603
+#
+DEF ~C_0.1uF_10v_0603 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_0.1uF_10v_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GRM188R71C104KA01D" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "490-1532-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "0.1uF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ C_0603
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_0.47uF_10v_0603
+#
+DEF ~C_0.47uF_10v_0603 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_0.47uF_10v_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GRM188R61A474KA61D" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "490-1539-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "0.47uF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ C_0603
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_1.0pF_100v_0603
+#
+DEF ~C_1.0pF_100v_0603 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_1.0pF_100v_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM1885C2A1R0BB01-01.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GQM1885C2A1R0BB01D" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "490-6090-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "1.0pF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ C_0603
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_1.5pF_100v_0603
+#
+DEF ~C_1.5pF_100v_0603 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_1.5pF_100v_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM1885C2A1R5BB01-01.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GQM1885C2A1R5BB01D" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "490-6091-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "1.5pF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ C_0603
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_1000uF_60v_RAD
+#
+DEF ~C_1000uF_60v_RAD C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_1000uF_60v_RAD" 0 -150 60 H I C CNN
+F2 "" 450 -50 60 H I C CNN
+F3 "http://nichicon-us.com/english/products/pdfs/e-vr.pdf" 200 -350 60 H I C CNN
+F4 "Nichicon" -300 -250 60 H I C CNN "Manufacturer"
+F5 "UVR1J102MHD" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "493-1129-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "1000uF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ UVR1J102MHD
+ UVR1J102MHD_RA
+$ENDFPLIST
+DRAW
+A -100 50 71 450 -450 0 1 0 N -50 100 -50 0
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_10uF_10v_0805
+#
+DEF ~C_10uF_10v_0805 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_10uF_10v_0805" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GRM21BR71A106KE51L" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "490-3905-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "10uF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ C_0805
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_15pF_50v_0603
+#
+DEF ~C_15pF_50v_0603 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_15pF_50v_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2A6R0CB01-01.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GQM1885C1H150JB01D" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "490-3572-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "15pF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ C_0603
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_1uF_10v_0805
+#
+DEF ~C_1uF_10v_0805 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_1uF_10v_0805" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GRM21BR71A105KA01L" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "490-1695-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "1uF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ C_0805
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_2.2uF_10v_0603
+#
+DEF ~C_2.2uF_10v_0603 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_2.2uF_10v_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GRM188R61A225ME34D" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "490-1546-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "2.2uF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ C_0603
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_2200pF_50v_0603
+#
+DEF ~C_2200pF_50v_0603 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_2200pF_50v_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H222KA01-01.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GRM188R71H222KA01D" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "	490-1500-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "2200pF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ C_0603
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_22pF_50v_0603
+#
+DEF ~C_22pF_50v_0603 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_22pF_50v_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM1885C1H220JB01-01.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GQM1885C1H220JB01D" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "490-3575-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "22pF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ C_0603
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_4.7pF_100v_0603
+#
+DEF ~C_4.7pF_100v_0603 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_4.7pF_100v_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C2A4R7CA01-01.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GRM1885C2A4R7CA01D" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "490-6392-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "4.7pF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ C_0603
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_6pF_100v_0805
+#
+DEF ~C_6pF_100v_0805 C 0 40 N N 1 F N
+F0 "C" 0 -50 60 H V C CNN
+F1 "C_6pF_100v_0805" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2A6R0CB01-01.pdf" 200 -350 60 H I C CNN
+F4 "Murata" -300 -250 60 H I C CNN "Manufacturer"
+F5 "GQM2195C2A6R0CB01D" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "490-3594-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "6pF" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ C_0805
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 50  -50 50 N
+P 2 0 1 0  -50 100  -50 0 N
+P 2 0 1 0  50 50  100 50 N
+P 2 0 1 0  50 100  50 0 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1198,7 +1303,7 @@ ENDDEF
 DEF DIP_8 SW 0 40 Y Y 1 F N
 F0 "SW" 0 450 60 H V C CNN
 F1 "DIP_8" 0 -150 60 H V C CNN
-F2 "~" 500 -150 60 H I C CNN
+F2 "" 500 -150 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825058&DocType=Customer+Drawing&DocLang=English" 200 -350 60 H I C CNN
 F4 "TE Connectivity" -300 -250 60 H I C CNN "Manufacturer"
 F5 "1-1825058-9" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1236,13 +1341,57 @@ X ~ 16 200 300 150 L 25 25 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_SCH_20V_1A
+#
+DEF ~D_SCH_20V_1A D 0 40 N N 1 F N
+F0 "D" 0 -50 60 H V C CNN
+F1 "D_SCH_20V_1A" 0 -150 60 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "http://www.diodes.com/datasheets/ds13002.pdf" 200 -350 60 H I C CNN
+F4 "Diodes Incorporated" -300 -250 60 H I C CNN "Manufacturer"
+F5 "B120B-13-F" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "B120B-FDICT-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+$FPLIST
+ SMB
+$ENDFPLIST
+DRAW
+P 4 0 1 0  -50 100  50 150  50 50  -50 100 N
+P 7 0 1 0  -100 150  -100 200  -50 200  -50 150  -50 0  0 0  0 50 N
+X ~ 1 100 100 50 L 25 25 1 1 I
+X ~ 2 -100 100 50 R 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# D_SCH_60V_3A
+#
+DEF ~D_SCH_60V_3A D 0 40 N N 1 F N
+F0 "D" 0 -50 60 H V C CNN
+F1 "D_SCH_60V_3A" 0 -150 60 H I C CNN
+F2 "" 200 -50 60 H I C CNN
+F3 "http://www.diodes.com/datasheets/ds30924.pdf" 200 -350 60 H I C CNN
+F4 "Diodes Incorporated" -300 -250 60 H I C CNN "Manufacturer"
+F5 "B360B-13-F" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "B360B-FDICT-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+$FPLIST
+ SMB
+$ENDFPLIST
+DRAW
+P 4 0 1 0  -50 100  50 150  50 50  -50 100 N
+P 7 0 1 0  -100 150  -100 200  -50 200  -50 150  -50 0  0 0  0 50 N
+X ~ 1 100 100 50 L 25 25 1 1 I
+X ~ 2 -100 100 50 R 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
 # EdisonWithMounting
 #
 DEF EdisonWithMounting U 0 40 Y Y 1 F N
 F0 "U" -350 1200 60 H V C CNN
 F1 "EdisonWithMounting" 50 -1300 60 H V C CNN
-F2 "~" 600 -650 60 H V C CNN
-F3 "~" 600 -650 60 H V C CNN
+F2 "" 600 -650 60 H V C CNN
+F3 "" 600 -650 60 H V C CNN
 $FPLIST
  EDISONWITHMOUNTING
 $ENDFPLIST
@@ -1344,36 +1493,12 @@ X MNT2 MNT2 -550 -900 150 R 25 25 1 1 P
 ENDDRAW
 ENDDEF
 #
-# FET_N_1.2A_20V
-#
-DEF FET_N_1.2A_20V Q 0 40 Y Y 1 F N
-F0 "Q" -50 500 60 H V C CNN
-F1 "FET_N_1.2A_20V" 0 150 60 H V C CNN
-F2 "~" 750 150 60 H I C CNN
-F3 "http://www.irf.com/product-info/datasheets/data/irlml2402pbf.pdf" 100 -50 60 H I C CNN
-F4 "International Rectifier" -450 50 60 H I C CNN "Manufacturer"
-F5 "IRLML2402TRPBF" 450 50 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -200 -150 60 H I C CNN "Supplier"
-F7 "IRLML2402PBFCT-ND" 450 -150 60 H I C CNN "Supplier Part Num."
-$FPLIST
- FET_N_1.2A_20V
-$ENDFPLIST
-DRAW
-P 2 0 1 0  -100 400  -100 300 N
-P 4 0 1 0  0 350  0 250  50 300  0 350 N
-P 4 0 1 0  50 400  -50 400  -50 300  0 300 N
-X ~ 1 -250 350 150 R 25 25 1 1 P
-X ~ 2 100 300 50 L 25 25 1 1 P
-X ~ 3 100 400 50 L 25 25 1 1 P
-ENDDRAW
-ENDDEF
-#
 # FET_NP_5A/3A_60V
 #
 DEF FET_NP_5A/3A_60V Q 0 40 Y Y 1 F N
 F0 "Q" -50 800 60 H V C CNN
 F1 "FET_NP_5A/3A_60V" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://diodes.com/datasheets/DMC6040SSD.pdf" 100 -50 60 H I C CNN
 F4 "International Rectifier" -500 50 60 H I C CNN "Manufacturer"
 F5 "DMC6040SSD-13" 450 50 60 H I C CNN "Man. Part Num."
@@ -1405,12 +1530,36 @@ X ~ 8 100 400 50 L 25 25 1 1 P
 ENDDRAW
 ENDDEF
 #
+# FET_N_1.2A_20V
+#
+DEF FET_N_1.2A_20V Q 0 40 Y Y 1 F N
+F0 "Q" -50 500 60 H V C CNN
+F1 "FET_N_1.2A_20V" 0 150 60 H V C CNN
+F2 "" 750 150 60 H I C CNN
+F3 "http://www.irf.com/product-info/datasheets/data/irlml2402pbf.pdf" 100 -50 60 H I C CNN
+F4 "International Rectifier" -450 50 60 H I C CNN "Manufacturer"
+F5 "IRLML2402TRPBF" 450 50 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -200 -150 60 H I C CNN "Supplier"
+F7 "IRLML2402PBFCT-ND" 450 -150 60 H I C CNN "Supplier Part Num."
+$FPLIST
+ FET_N_1.2A_20V
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -100 400  -100 300 N
+P 4 0 1 0  0 350  0 250  50 300  0 350 N
+P 4 0 1 0  50 400  -50 400  -50 300  0 300 N
+X ~ 1 -250 350 150 R 25 25 1 1 P
+X ~ 2 100 300 50 L 25 25 1 1 P
+X ~ 3 100 400 50 L 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
 # FREESCALE_MMA8652
 #
 DEF FREESCALE_MMA8652 U 0 40 Y Y 1 F N
 F0 "U" -100 650 60 H V C CNN
 F1 "FREESCALE_MMA8652" 50 150 60 H V C CNN
-F2 "~" 950 50 60 H I C CNN
+F2 "" 950 50 60 H I C CNN
 F3 "http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8652FC.pdf" 100 -50 60 H I C CNN
 F4 "Freescale Semi" -250 50 60 H I C CNN "Manufacturer"
 F5 "MMA8652FCR1" 250 50 60 H I C CNN "Man. Part Num."
@@ -1439,7 +1588,7 @@ ENDDEF
 DEF FTDI_RT232RL U 0 40 Y Y 1 F N
 F0 "U" -150 1200 60 H V C CNN
 F1 "FTDI_RT232RL" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" 100 -50 60 H I C CNN
 F4 "FTDI" -250 50 60 H I C CNN "Manufacturer"
 F5 "FT232RL" 250 50 60 H I C CNN "Man. Part Num."
@@ -1481,112 +1630,12 @@ X ~RESET 19 400 850 150 L 25 25 1 1 I
 ENDDRAW
 ENDDEF
 #
-# I_2.7nH_10%_0603
-#
-DEF ~I_2.7nH_10%_0603 L 0 40 N N 1 F N
-F0 "L" 0 -50 60 H V C CNN
-F1 "I_2.7nH_10%_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
-F3 "http://www.yuden.co.jp/ut/product/category/inductor/HK16082N7S-T.pdf" 200 -350 60 H I C CNN
-F4 "Taiyo Yuden" -300 -250 60 H I C CNN "Manufacturer"
-F5 "HK16082N7S-T" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "587-1538-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "2.7nH" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- R_0603
-$ENDFPLIST
-DRAW
-A -75 50 25 -1799 -1 0 1 0 N -100 50 -50 50
-A -25 50 25 -1799 -1 0 1 0 N -50 50 0 50
-A 25 50 25 -1799 -1 0 1 0 N 0 50 50 50
-A 75 50 25 -1799 -1 0 1 0 N 50 50 100 50
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# I_3.9nH_7%_0603
-#
-DEF ~I_3.9nH_7%_0603 L 0 40 N N 1 F N
-F0 "L" 0 -50 60 H V C CNN
-F1 "I_3.9nH_7%_0603" 0 -150 60 H I C CNN
-F2 "~" 300 -50 60 H I C CNN
-F3 "http://www.yuden.co.jp/ut/product/category/inductor/HK16083N9S-T.pdf" 200 -350 60 H I C CNN
-F4 "Taiyo Yuden" -300 -250 60 H I C CNN "Manufacturer"
-F5 "HK16083N9S-T" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "587-1540-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "3.9nH" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- R_0603
-$ENDFPLIST
-DRAW
-A -75 50 25 -1799 -1 0 1 0 N -100 50 -50 50
-A -25 50 25 -1799 -1 0 1 0 N -50 50 0 50
-A 25 50 25 -1799 -1 0 1 0 N 0 50 50 50
-A 75 50 25 -1799 -1 0 1 0 N 50 50 100 50
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# I_47uH_20%
-#
-DEF ~I_47uH_20% L 0 40 N N 1 F N
-F0 "L" 0 -50 60 H V C CNN
-F1 "I_47uH_20%" 0 -150 60 H I C CNN
-F2 "~" 400 -50 60 H I C CNN
-F3 "http://www.yuden.co.jp/ut/product/category/inductor/NR6028T470M.pdf" 200 -350 60 H I C CNN
-F4 "Taiyo Yuden" -300 -250 60 H I C CNN "Manufacturer"
-F5 "NR6028T470M" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "587-2104-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "47uH" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- NR6028T470M
-$ENDFPLIST
-DRAW
-A -75 50 25 -1799 -1 0 1 0 N -100 50 -50 50
-A -25 50 25 -1799 -1 0 1 0 N -50 50 0 50
-A 25 50 25 -1799 -1 0 1 0 N 0 50 50 50
-A 75 50 25 -1799 -1 0 1 0 N 50 50 100 50
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
-# I_8.2nH_5%_0603
-#
-DEF ~I_8.2nH_5%_0603 L 0 40 N N 1 F N
-F0 "L" 0 -50 60 H V C CNN
-F1 "I_8.2nH_5%_0603" 0 -150 60 H I C CNN
-F2 "~" 300 -50 60 H I C CNN
-F3 "http://www.yuden.co.jp/ut/product/category/inductor/HK16088N2J-T.pdf" 200 -350 60 H I C CNN
-F4 "Taiyo Yuden" -300 -250 60 H I C CNN "Manufacturer"
-F5 "HK16088N2J-T" 450 -250 60 H I C CNN "Man. Part Num."
-F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
-F7 "587-1544-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
-F8 "8.2nH" 0 150 60 H V C CNN "Comp. Value"
-$FPLIST
- R_0603
-$ENDFPLIST
-DRAW
-A -75 50 25 -1799 -1 0 1 0 N -100 50 -50 50
-A -25 50 25 -1799 -1 0 1 0 N -50 50 0 50
-A 25 50 25 -1799 -1 0 1 0 N 0 50 50 50
-A 75 50 25 -1799 -1 0 1 0 N 50 50 100 50
-X ~ 1 -150 50 50 R 25 25 1 1 I
-X ~ 2 150 50 50 L 25 25 1 1 I
-ENDDRAW
-ENDDEF
-#
 # INTERSIL_ISL32602EFBZ
 #
 DEF INTERSIL_ISL32602EFBZ U 0 40 Y Y 1 F N
 F0 "U" 0 800 60 H V C CNN
 F1 "INTERSIL_ISL32602EFBZ" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.intersil.com/content/dam/Intersil/documents/fn79/fn7967.pdf" 100 -50 60 H I C CNN
 F4 "Intersil" -250 50 60 H I C CNN "Manufacturer"
 F5 "ISL32602EFBZ" 250 50 60 H I C CNN "Man. Part Num."
@@ -1619,7 +1668,7 @@ ENDDEF
 DEF INV_2X_1.65v_5.5v U 0 40 Y Y 1 F N
 F0 "U" -100 500 60 H V C CNN
 F1 "INV_2X_1.65v_5.5v" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.fairchildsemi.com/datasheets/NC/NC7WZ14.pdf" 100 -50 60 H I C CNN
 F4 "Fairchild Semi" -400 50 60 H I C CNN "Manufacturer"
 F5 "NC7WZ14P6X" 600 50 60 H I C CNN "Man. Part Num."
@@ -1639,12 +1688,137 @@ X Y1 6 350 350 150 L 25 25 1 1 O
 ENDDRAW
 ENDDEF
 #
+# I_2.2uH_20%_0603
+#
+DEF ~I_2.2uH_20%_0603 L 0 40 N N 1 F N
+F0 "L" 0 -50 60 H V C CNN
+F1 "I_2.2uH_20%_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz1608_en.pdf" 200 -350 60 H I C CNN
+F4 "TDK Corporation" -300 -250 60 H I C CNN "Manufacturer"
+F5 "MLZ1608A2R2M" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "445-3164-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "2.2uH" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ R_0603
+$ENDFPLIST
+DRAW
+A -75 50 25 -1799 -1 0 1 0 N -100 50 -50 50
+A -25 50 25 -1799 -1 0 1 0 N -50 50 0 50
+A 25 50 25 -1799 -1 0 1 0 N 0 50 50 50
+A 75 50 25 -1799 -1 0 1 0 N 50 50 100 50
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# I_2.7nH_10%_0603
+#
+DEF ~I_2.7nH_10%_0603 L 0 40 N N 1 F N
+F0 "L" 0 -50 60 H V C CNN
+F1 "I_2.7nH_10%_0603" 0 -150 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
+F3 "http://www.yuden.co.jp/ut/product/category/inductor/HK16082N7S-T.pdf" 200 -350 60 H I C CNN
+F4 "Taiyo Yuden" -300 -250 60 H I C CNN "Manufacturer"
+F5 "HK16082N7S-T" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "587-1538-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "2.7nH" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ R_0603
+$ENDFPLIST
+DRAW
+A -75 50 25 -1799 -1 0 1 0 N -100 50 -50 50
+A -25 50 25 -1799 -1 0 1 0 N -50 50 0 50
+A 25 50 25 -1799 -1 0 1 0 N 0 50 50 50
+A 75 50 25 -1799 -1 0 1 0 N 50 50 100 50
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# I_3.9nH_7%_0603
+#
+DEF ~I_3.9nH_7%_0603 L 0 40 N N 1 F N
+F0 "L" 0 -50 60 H V C CNN
+F1 "I_3.9nH_7%_0603" 0 -150 60 H I C CNN
+F2 "" 300 -50 60 H I C CNN
+F3 "http://www.yuden.co.jp/ut/product/category/inductor/HK16083N9S-T.pdf" 200 -350 60 H I C CNN
+F4 "Taiyo Yuden" -300 -250 60 H I C CNN "Manufacturer"
+F5 "HK16083N9S-T" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "587-1540-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "3.9nH" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ R_0603
+$ENDFPLIST
+DRAW
+A -75 50 25 -1799 -1 0 1 0 N -100 50 -50 50
+A -25 50 25 -1799 -1 0 1 0 N -50 50 0 50
+A 25 50 25 -1799 -1 0 1 0 N 0 50 50 50
+A 75 50 25 -1799 -1 0 1 0 N 50 50 100 50
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# I_47uH_20%
+#
+DEF ~I_47uH_20% L 0 40 N N 1 F N
+F0 "L" 0 -50 60 H V C CNN
+F1 "I_47uH_20%" 0 -150 60 H I C CNN
+F2 "" 400 -50 60 H I C CNN
+F3 "http://www.yuden.co.jp/ut/product/category/inductor/NR6028T470M.pdf" 200 -350 60 H I C CNN
+F4 "Taiyo Yuden" -300 -250 60 H I C CNN "Manufacturer"
+F5 "NR6028T470M" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "587-2104-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "47uH" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ NR6028T470M
+$ENDFPLIST
+DRAW
+A -75 50 25 -1799 -1 0 1 0 N -100 50 -50 50
+A -25 50 25 -1799 -1 0 1 0 N -50 50 0 50
+A 25 50 25 -1799 -1 0 1 0 N 0 50 50 50
+A 75 50 25 -1799 -1 0 1 0 N 50 50 100 50
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
+# I_8.2nH_5%_0603
+#
+DEF ~I_8.2nH_5%_0603 L 0 40 N N 1 F N
+F0 "L" 0 -50 60 H V C CNN
+F1 "I_8.2nH_5%_0603" 0 -150 60 H I C CNN
+F2 "" 300 -50 60 H I C CNN
+F3 "http://www.yuden.co.jp/ut/product/category/inductor/HK16088N2J-T.pdf" 200 -350 60 H I C CNN
+F4 "Taiyo Yuden" -300 -250 60 H I C CNN "Manufacturer"
+F5 "HK16088N2J-T" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "587-1544-1-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "8.2nH" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ R_0603
+$ENDFPLIST
+DRAW
+A -75 50 25 -1799 -1 0 1 0 N -100 50 -50 50
+A -25 50 25 -1799 -1 0 1 0 N -50 50 0 50
+A 25 50 25 -1799 -1 0 1 0 N 0 50 50 50
+A 75 50 25 -1799 -1 0 1 0 N 50 50 100 50
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
 # LDO_AP1117_LDO_3.3V_1A
 #
 DEF LDO_AP1117_LDO_3.3V_1A U 0 40 Y Y 1 F N
 F0 "U" -50 550 60 H V C CNN
 F1 "LDO_AP1117_LDO_3.3V_1A" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.diodes.com/datasheets/AP1117.pdf" 100 -50 60 H I C CNN
 F4 "Diodes Inc" -250 50 60 H I C CNN "Manufacturer"
 F5 "AP1117IE33G-13" 250 50 60 H I C CNN "Man. Part Num."
@@ -1667,7 +1841,7 @@ ENDDEF
 DEF ~LED_BLUE_0603 D 0 40 N N 1 F N
 F0 "D" 0 -50 60 H V C CNN
 F1 "LED_BLUE_0603" 0 -150 60 H I C CNN
-F2 "~" 300 -50 60 H I C CNN
+F2 "" 300 -50 60 H I C CNN
 F3 "http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/S_110_LTST-C193KGKT-5A.pdf" 200 -350 60 H I C CNN
 F4 "Lite-On Inc" -300 -250 60 H I C CNN "Manufacturer"
 F5 "LTST-C193TBKT-5A" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1692,7 +1866,7 @@ ENDDEF
 DEF ~LED_GREEN_0603 D 0 40 N N 1 F N
 F0 "D" 0 -50 60 H V C CNN
 F1 "LED_GREEN_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
 F3 "http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/S_110_LTST-C193KGKT-5A.pdf" 200 -350 60 H I C CNN
 F4 "Lite-On Inc" -300 -250 60 H I C CNN "Manufacturer"
 F5 "LTST-C193KGKT-5A" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1717,7 +1891,7 @@ ENDDEF
 DEF ~LED_ORANGE_0603 D 0 40 N N 1 F N
 F0 "D" 0 -50 60 H V C CNN
 F1 "LED_ORANGE_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
 F3 "http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/S_110_LTST-C193KGKT-5A.pdf" 200 -350 60 H I C CNN
 F4 "Lite-On Inc" -300 -250 60 H I C CNN "Manufacturer"
 F5 "LTST-C193KFKT-5A" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1742,7 +1916,7 @@ ENDDEF
 DEF ~LED_RED_0603 D 0 40 N N 1 F N
 F0 "D" 0 -50 60 H V C CNN
 F1 "LED_RED_0603" 0 -150 60 H I C CNN
-F2 "~" 250 -50 60 H I C CNN
+F2 "" 250 -50 60 H I C CNN
 F3 "http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/S_110_LTST-C193KGKT-5A.pdf" 200 -350 60 H I C CNN
 F4 "Lite-On Inc" -300 -250 60 H I C CNN "Manufacturer"
 F5 "LTST-C193KRKT-5A" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1767,7 +1941,7 @@ ENDDEF
 DEF ~LED_YELLOW_5MM D 0 40 N N 1 F N
 F0 "D" 0 -50 60 H V C CNN
 F1 "LED_YELLOW_5MM" 0 -150 60 H I C CNN
-F2 "~" 300 -50 60 H I C CNN
+F2 "" 300 -50 60 H I C CNN
 F3 "http://www.optekinc.com/datasheets/OVLG_SERIES.PDF" 200 -350 60 H I C CNN
 F4 "Optek Technology" -300 -250 60 H I C CNN "Manufacturer"
 F5 "OVLGY0C9B9" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1792,7 +1966,7 @@ ENDDEF
 DEF MICREL_MIC2039 U 0 40 Y Y 1 F N
 F0 "U" -100 450 60 H V C CNN
 F1 "MICREL_MIC2039" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.micrel.com/_PDF/MIC2039.pdf" 100 -50 60 H I C CNN
 F4 "Micrel" -250 50 60 H I C CNN "Manufacturer"
 F5 "MIC2039AYM6" 250 50 60 H I C CNN "Man. Part Num."
@@ -1817,7 +1991,7 @@ ENDDEF
 DEF MICROCHIP_LAN9500A U 0 40 Y Y 1 F N
 F0 "U" 500 2300 60 H V C CNN
 F1 "MICROCHIP_LAN9500A" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562338" 100 -50 60 H I C CNN
 F4 "Microchip" -400 50 60 H I C CNN "Manufacturer"
 F5 "LAN9500AI-ABZJ-TR" 600 50 60 H I C CNN "Man. Part Num."
@@ -1904,12 +2078,36 @@ X GND PAD 0 250 150 U 25 25 1 1 W
 ENDDRAW
 ENDDEF
 #
+# MICROCHIP_MCP73831
+#
+DEF MICROCHIP_MCP73831 U 0 40 Y Y 1 F N
+F0 "U" -100 500 60 H V C CNN
+F1 "MICROCHIP_MCP73831" 0 150 60 H V C CNN
+F2 "" 500 150 60 H I C CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en025112" 100 -50 60 H I C CNN
+F4 "Microchip" -550 50 60 H I C CNN "Manufacturer"
+F5 "MCP73831" 350 50 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -200 -150 60 H I C CNN "Supplier"
+F7 "MCP73831T-2ATI/OTCT-ND" 450 -150 60 H I C CNN "Supplier Part Num."
+$FPLIST
+ SOT-23-5
+$ENDFPLIST
+DRAW
+S -150 450 150 250 0 1 0 N
+X STAT 1 -300 300 150 R 25 25 1 1 O
+X GND 2 300 300 150 L 25 25 1 1 W
+X VBATT 3 300 400 150 L 25 25 1 1 W
+X VCC 4 -300 400 150 R 25 25 1 1 W
+X PROG 5 -300 350 150 R 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
 # NCP_1402
 #
 DEF NCP_1402 U 0 40 Y Y 1 F N
 F0 "U" -100 450 60 H V C CNN
 F1 "NCP_1402" 0 150 60 H V C CNN
-F2 "~" 500 150 60 H I C CNN
+F2 "" 500 150 60 H I C CNN
 F3 "http://www.onsemi.com/pub_link/Collateral/NCP1402-D.PDF" 100 -50 60 H I C CNN
 F4 "ON Semiconductor" -550 50 60 H I C CNN "Manufacturer"
 F5 "NCP1402SN33T1G" 350 50 60 H I C CNN "Man. Part Num."
@@ -1933,7 +2131,7 @@ ENDDEF
 DEF NORDIC_NRF24L01P U 0 40 Y Y 1 F N
 F0 "U" -150 1100 60 H V C CNN
 F1 "NORDIC_NRF24L01P" 0 150 60 H V C CNN
-F2 "~" 950 50 60 H I C CNN
+F2 "" 950 50 60 H I C CNN
 F3 "http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf" 100 -50 60 H I C CNN
 F4 "Nordic Semiconductor" -600 50 60 H I C CNN "Manufacturer"
 F5 "NRF24L01P-R7" 250 50 60 H I C CNN "Man. Part Num."
@@ -1972,7 +2170,7 @@ ENDDEF
 DEF ~R_0_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_0_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW06030000Z0EA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -1994,7 +2192,7 @@ ENDDEF
 DEF ~R_1.5K_1%_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_1.5K_1%_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW06031K50FKEA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2016,7 +2214,7 @@ ENDDEF
 DEF ~R_100K_1%_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_100K_1%_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW0603100KFKEA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2038,7 +2236,7 @@ ENDDEF
 DEF ~R_10K_1%_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_10K_1%_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW060310K0FKEA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2060,7 +2258,7 @@ ENDDEF
 DEF ~R_120_1%_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_120_1%_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW0603120RFKEA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2082,7 +2280,7 @@ ENDDEF
 DEF ~R_12K_1%_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_12K_1%_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW060312K0FKEA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2104,7 +2302,7 @@ ENDDEF
 DEF ~R_15K_1%_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_15K_1%_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW060315K0FKEA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2126,7 +2324,7 @@ ENDDEF
 DEF ~R_1M_1%_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_1M_1%_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW06031M00FKEA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2148,7 +2346,7 @@ ENDDEF
 DEF ~R_22K_1%_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_22K_1%_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW060322K0FKEA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2170,7 +2368,7 @@ ENDDEF
 DEF ~R_287_1%_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_287_1%_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW0603287RFKEA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2187,12 +2385,34 @@ X ~ 2 150 50 50 L 25 25 1 1 I
 ENDDRAW
 ENDDEF
 #
+# R_2K_1%_0603
+#
+DEF ~R_2K_1%_0603 R 0 40 N N 1 F N
+F0 "R" 0 -50 60 H V C CNN
+F1 "R_2K_1%_0603" 0 -150 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
+F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
+F5 "CRCW06032K00FKEA" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "541-2.00KHCT-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "2K" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ R_0603
+$ENDFPLIST
+DRAW
+P 5 0 1 0  -100 50  -50 100  0 0  50 100  100 50 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
 # R_402_1%_0603
 #
 DEF ~R_402_1%_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_402_1%_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW0603402RFKEA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2214,7 +2434,7 @@ ENDDEF
 DEF ~R_49.9K_1%_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_49.9K_1%_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW060349K9FKEA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2231,12 +2451,34 @@ X ~ 2 150 50 50 L 25 25 1 1 I
 ENDDRAW
 ENDDEF
 #
+# R_5.1K_1%_0603
+#
+DEF ~R_5.1K_1%_0603 R 0 40 N N 1 F N
+F0 "R" 0 -50 60 H V C CNN
+F1 "R_5.1K_1%_0603" 0 -150 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
+F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
+F5 "CRCW06035K10FKEA" 450 -250 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -250 -450 60 H I C CNN "Supplier"
+F7 "541-5.10KHCT-ND" 450 -450 60 H I C CNN "Supplier Part Num."
+F8 "5.1K" 0 150 60 H V C CNN "Comp. Value"
+$FPLIST
+ R_0603
+$ENDFPLIST
+DRAW
+P 5 0 1 0  -100 50  -50 100  0 0  50 100  100 50 N
+X ~ 1 -150 50 50 R 25 25 1 1 I
+X ~ 2 150 50 50 L 25 25 1 1 I
+ENDDRAW
+ENDDEF
+#
 # R_68_1%_0603
 #
 DEF ~R_68_1%_0603 R 0 40 N N 1 F N
 F0 "R" 0 -50 60 H V C CNN
 F1 "R_68_1%_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 200 -350 60 H I C CNN
 F4 "Vishay_Dale" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CRCW060368R0FKEA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2258,7 +2500,7 @@ ENDDEF
 DEF SW_ROTARY_4POS SW 0 40 Y Y 1 F N
 F0 "SW" -50 300 60 H V C CNN
 F1 "SW_ROTARY_4POS" 0 -150 60 H V C CNN
-F2 "~" 700 -150 60 H I C CNN
+F2 "" 700 -150 60 H I C CNN
 F3 "http://www.nidec-copal-electronics.com/e/catalog/switch/cs-7.pdf" 200 -350 60 H I C CNN
 F4 "Copal Electronics" -300 -250 60 H I C CNN "Manufacturer"
 F5 "CS-7-14TB" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2286,7 +2528,7 @@ ENDDEF
 DEF ~SW_SPST-NO SW 0 40 N N 1 F N
 F0 "SW" 0 -50 60 H V C CNN
 F1 "SW_SPST-NO" 0 -150 60 H I C CNN
-F2 "~" 350 -50 60 H I C CNN
+F2 "" 350 -50 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" 200 -350 60 H I C CNN
 F4 "TE Connectivity" -300 -250 60 H I C CNN "Manufacturer"
 F5 "FSM4JSMA" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2312,7 +2554,7 @@ ENDDEF
 DEF ~THERM_NTC_10K_0603 T 0 40 N N 1 F N
 F0 "T" 0 -50 60 H V C CNN
 F1 "THERM_NTC_10K_0603" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
 F3 "http://www.murata.com/products/catalog/pdf/r44e.pdf" 200 -350 60 H I C CNN
 F4 "Murata Electronics" -300 -250 60 H I C CNN "Manufacturer"
 F5 "NCP18XH103J03RB" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2333,7 +2575,7 @@ ENDDEF
 DEF TI_ADS7924 U 0 40 Y Y 1 F N
 F0 "U" -150 1000 60 H V C CNN
 F1 "TI_ADS7924" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.ti.com/lit/ds/symlink/ads7924.pdf" 100 -50 60 H I C CNN
 F4 "Texas Instruments" -250 50 60 H I C CNN "Manufacturer"
 F5 "ADS7924IRTER" 250 50 60 H I C CNN "Man. Part Num."
@@ -2368,7 +2610,7 @@ ENDDEF
 DEF TI_LM1085_LDO_5V_3A U 0 40 Y Y 1 F N
 F0 "U" -50 550 60 H V C CNN
 F1 "TI_LM1085_LDO_5V_3A" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.ti.com/lit/ds/symlink/lm1085.pdf" 100 -50 60 H I C CNN
 F4 "Texas Instruments" -250 50 60 H I C CNN "Manufacturer"
 F5 "LM1085ISX-5.0" 250 50 60 H I C CNN "Man. Part Num."
@@ -2386,12 +2628,37 @@ X PAD PAD 300 400 150 L 25 25 1 1 I
 ENDDRAW
 ENDDEF
 #
+# TI_TPS62730
+#
+DEF TI_TPS62730 U 0 40 Y Y 1 F N
+F0 "U" -150 450 60 H V C CNN
+F1 "TI_TPS62730" 0 150 60 H V C CNN
+F2 "" 200 50 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/tps62730.pdf" 100 -50 60 H I C CNN
+F4 "Texas Instruments" -250 50 60 H I C CNN "Manufacturer"
+F5 "TPS62730" 1050 100 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -200 -150 60 H I C CNN "Supplier"
+F7 "296-39458-1-ND" 450 -150 60 H I C CNN "Supplier Part Num."
+$FPLIST
+ TPS62730
+$ENDFPLIST
+DRAW
+S -200 400 150 200 0 1 0 N
+X STAT 1 300 250 150 L 25 25 1 1 C
+X SW 2 300 350 150 L 25 25 1 1 w
+X VIN 3 -350 350 150 R 25 25 1 1 W
+X GND 4 -350 250 150 R 25 25 1 1 W
+X ON/BYP 5 -350 300 150 R 25 25 1 1 I
+X VOUT 6 300 300 150 L 25 25 1 1 w
+ENDDRAW
+ENDDEF
+#
 # TI_TS3USB221A
 #
 DEF TI_TS3USB221A U 0 40 Y Y 1 F N
 F0 "U" -100 700 60 H V C CNN
 F1 "TI_TS3USB221A" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.ti.com/lit/pdf/scds300" 100 -50 60 H I C CNN
 F4 "Texas Instruments" -450 50 60 H I C CNN "Manufacturer"
 F5 "TS3USB221AQRSERQ1" 600 50 60 H I C CNN "Man. Part Num."
@@ -2420,7 +2687,7 @@ ENDDEF
 DEF TI_TUSB2036 U 0 40 Y Y 1 F N
 F0 "U" -200 1550 60 H V C CNN
 F1 "TI_TUSB2036" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tusb2036.pdf" 100 -50 60 H I C CNN
 F4 "Texas Instruments" -450 50 60 H I C CNN "Manufacturer"
 F5 "TUSB2036VFR" 500 50 60 H I C CNN "Man. Part Num."
@@ -2473,7 +2740,7 @@ ENDDEF
 DEF TI_TXB0108 U 0 40 Y Y 1 F N
 F0 "U" -100 850 60 H V C CNN
 F1 "TI_TXB0108" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.ti.com/lit/ds/symlink/txb0108.pdf" 100 -50 60 H I C CNN
 F4 "Texas Instruments" -250 50 60 H I C CNN "Manufacturer"
 F5 "TXB0108PWR" 250 50 60 H I C CNN "Man. Part Num."
@@ -2507,13 +2774,35 @@ X VCCB 19 300 700 150 L 25 25 1 1 W
 ENDDRAW
 ENDDEF
 #
+# TOSHIBA_TCS40DLR
+#
+DEF TOSHIBA_TCS40DLR U 0 40 Y Y 1 F N
+F0 "U" -100 400 60 H V C CNN
+F1 "TOSHIBA_TCS40DLR" 0 150 60 H V C CNN
+F2 "" 500 150 60 H I C CNN
+F3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=30105&prodName=TCS40DLR" 100 -50 60 H I C CNN
+F4 "Toshiba" -550 50 60 H I C CNN "Manufacturer"
+F5 "TCS40DLR" 350 50 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -200 -150 60 H I C CNN "Supplier"
+F7 "TCS40DLRLFCT-ND" 450 -150 60 H I C CNN "Supplier Part Num."
+$FPLIST
+ SOT-23-3
+$ENDFPLIST
+DRAW
+S -150 350 150 200 0 1 0 N
+X VCC 1 -300 300 150 R 25 25 1 1 W
+X VOUT 2 300 300 150 L 25 25 1 1 O
+X GND 3 -300 250 150 R 25 25 1 1 W
+ENDDRAW
+ENDDEF
+#
 # TP
 #
 DEF ~TP TP 0 40 N N 1 F N
 F0 "TP" 0 -50 60 H V C CNN
 F1 "TP" 0 -150 60 H I C CNN
-F2 "~" 0 0 60 H I C CNN
-F3 "~" 200 -350 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 200 -350 60 H I C CNN
 $FPLIST
  TP_03
 $ENDFPLIST
@@ -2528,7 +2817,7 @@ ENDDEF
 DEF USB_A J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "USB_A" 0 -150 60 H V C CNN
-F2 "~" 0 100 60 H V C CNN
+F2 "" 0 100 60 H V C CNN
 F3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" 200 -350 60 H I C CNN
 F4 "Amphenol" -300 -250 60 H I C CNN "Manufacturer"
 F5 "UE27AC54100" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2553,7 +2842,7 @@ ENDDEF
 DEF USB_MICROB_RA J 0 40 Y Y 1 F N
 F0 "J" 0 -50 60 H V C CNN
 F1 "USB_MICROB_RA" 0 -150 60 H V C CNN
-F2 "~" 0 150 60 H V C CNN
+F2 "" 0 150 60 H V C CNN
 F3 "http://portal.fciconnect.com/Comergent//fci/drawing/10118193.pdf" 200 -350 60 H I C CNN
 F4 "FCI" -300 -250 60 H I C CNN "Manufacturer"
 F5 "10118193-0001LF" 450 -250 60 H I C CNN "Man. Part Num."
@@ -2579,7 +2868,7 @@ ENDDEF
 DEF VCP_ACDC_12V_24W U 0 40 Y Y 1 F N
 F0 "U" 0 450 60 H V C CNN
 F1 "VCP_ACDC_12V_24W" 0 150 60 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
 F3 "http://www.xppower.com/pdfs/SF_VCP24.pdf" 100 -50 60 H I C CNN
 F4 "XP Power" -250 50 60 H I C CNN "Manufacturer"
 F5 "VCP24US12-E" 250 50 60 H I C CNN "Man. Part Num."
@@ -2594,6 +2883,29 @@ X LIVE 1 -350 350 150 R 25 25 1 1 W
 X NEUTRAL 2 -350 300 150 R 25 25 1 1 W
 X +12V 3 350 350 150 L 25 25 1 1 W
 X GND 4 350 300 150 L 25 25 1 1 W
+ENDDRAW
+ENDDEF
+#
+# WORLDSEMI_WS2812
+#
+DEF WORLDSEMI_WS2812 U 0 40 Y Y 1 F N
+F0 "U" -100 450 60 H V C CNN
+F1 "WORLDSEMI_WS2812" 0 150 60 H V C CNN
+F2 "" 500 150 60 H I C CNN
+F3 "http://www.adafruit.com/datasheets/WS2812B.pdf" 100 -50 60 H I C CNN
+F4 "World Semi" -550 50 60 H I C CNN "Manufacturer"
+F5 "WS2812" 350 50 60 H I C CNN "Man. Part Num."
+F6 "Digi-Key" -200 -150 60 H I C CNN "Supplier"
+F7 "1528-1104-ND" 450 -150 60 H I C CNN "Supplier Part Num."
+$FPLIST
+ WS2812
+$ENDFPLIST
+DRAW
+S -150 400 150 200 0 1 0 N
+X VCC 1 -300 350 150 R 25 25 1 1 W
+X DOUT 2 300 300 150 L 25 25 1 1 O
+X GND 3 300 250 150 L 25 25 1 1 W
+X DIN 4 -300 300 150 R 25 25 1 1 I
 ENDDRAW
 ENDDEF
 #

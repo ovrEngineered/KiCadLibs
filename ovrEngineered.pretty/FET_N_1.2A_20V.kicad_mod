@@ -1,0 +1,13 @@
+(module FET_N_1.2A_20V (layer F.Cu) (tedit 54FC75C1)
+  (fp_text reference Ref** (at -0.0254 -2.3622) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1905)))
+  )
+  (fp_text value Val** (at 0 2.4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.52 -0.7) (end -1.52 0.7) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.52 -0.7) (end 1.52 0.7) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at -0.95 1.012) (size 0.802 1.2192) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0.95 1.012) (size 0.802 1.2192) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 0 -1.012) (size 0.802 1.2192) (layers F.Cu F.Paste F.Mask))
+)
