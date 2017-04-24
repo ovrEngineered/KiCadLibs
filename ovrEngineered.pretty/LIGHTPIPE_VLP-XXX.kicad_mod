@@ -1,0 +1,14 @@
+(module LIGHTPIPE_VLP-XXX (layer F.Cu) (tedit 58F39B65)
+  (fp_text reference REF** (at 0 4.4704) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.1905)))
+  )
+  (fp_text value LIGHTPIPE_VLP-XXX (at 0.0254 3.4036) (layer F.Fab) hide
+    (effects (font (size 0.762 0.762) (thickness 0.1905)))
+  )
+  (fp_line (start 2.032 2.032) (end -2.032 2.032) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.032 2.032) (end -2.032 -2.032) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.032 -2.032) (end 2.032 -2.032) (layer F.SilkS) (width 0.15))
+  (fp_line (start 2.032 -2.032) (end 2.032 2.032) (layer F.SilkS) (width 0.15))
+  (pad "" np_thru_hole circle (at 2.032 -2.032) (size 0.6604 0.6604) (drill 0.6604) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -2.032 2.032) (size 0.6604 0.6604) (drill 0.6604) (layers *.Cu *.Mask))
+)
