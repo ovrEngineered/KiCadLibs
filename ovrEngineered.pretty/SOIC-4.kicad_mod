@@ -1,10 +1,11 @@
-(module SOIC-4 (layer F.Cu) (tedit 59E8121F)
+(module SOIC-4 (layer F.Cu) (tedit 59EB85B8)
   (fp_text reference REF** (at 0 -3.1) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1905)))
   )
   (fp_text value SOIC-4 (at 0 -0.5) (layer F.Fab) hide
     (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
   )
+  (fp_line (start -2.1 -2.2) (end 2.1 -2.2) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.1 -2.475) (end -2.1 2.475) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.1 2.475) (end 2.1 2.475) (layer F.SilkS) (width 0.15))
   (fp_line (start 2.1 2.475) (end 2.1 -2.475) (layer F.SilkS) (width 0.15))

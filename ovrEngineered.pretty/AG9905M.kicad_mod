@@ -1,10 +1,12 @@
-(module AG9905M (layer F.Cu) (tedit 59E81E4B)
+(module AG9905M (layer F.Cu) (tedit 59E8BB3D)
   (fp_text reference REF** (at -0.0762 -11.2522) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1905)))
   )
   (fp_text value AG9905M (at -0.1016 -0.0254) (layer F.Fab) hide
     (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
   )
+  (fp_line (start -9.4 -8.8) (end -9.4 -10.4) (layer F.SilkS) (width 0.15))
+  (fp_line (start -9.4 -10.4) (end -7.7 -10.4) (layer F.SilkS) (width 0.15))
   (fp_line (start -1 10.6) (end 2.2 7) (layer F.SilkS) (width 0.15))
   (fp_line (start -4.8 10.6) (end 2.2 2.8) (layer F.SilkS) (width 0.15))
   (fp_line (start -4.8 7.4) (end -0.4 2.6) (layer F.SilkS) (width 0.15))
