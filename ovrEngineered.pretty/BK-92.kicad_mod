@@ -1,0 +1,13 @@
+(module BK-92 (layer F.Cu) (tedit 59F4A64D)
+  (fp_text reference REF** (at -4.064 -5.334) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1905)))
+  )
+  (fp_text value BK-92 (at 0 0) (layer F.Fab) hide
+    (effects (font (size 0.762 0.762) (thickness 0.1905)))
+  )
+  (fp_line (start -5.588 -4.699) (end -5.588 4.699) (layer F.SilkS) (width 0.15))
+  (fp_line (start 3.81 -4.699) (end -5.588 -4.699) (layer F.SilkS) (width 0.15))
+  (fp_line (start 3.81 4.699) (end -5.588 4.699) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole circle (at -3.81 0) (size 3.556 3.556) (drill 1.778) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 3.81 0) (size 3.556 3.556) (drill 1.778) (layers *.Cu *.Mask))
+)

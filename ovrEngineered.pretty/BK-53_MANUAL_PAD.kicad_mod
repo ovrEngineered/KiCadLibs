@@ -1,0 +1,9 @@
+(module BK-53_MANUAL_PAD (layer F.Cu) (tedit 59F4AB20)
+  (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.1905)))
+  )
+  (fp_text value BK-53_MANUAL_PAD (at 0 0) (layer F.Fab) hide
+    (effects (font (size 0.762 0.762) (thickness 0.1905)))
+  )
+  (pad 1 smd rect (at 0 0) (size 5.08 5.08) (layers F.Cu F.Paste F.Mask))
+)
