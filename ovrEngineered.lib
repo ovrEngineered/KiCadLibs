@@ -4011,9 +4011,9 @@ F1 "TI_TCA4311A" 0 150 60 H V C CNN
 F2 "" 200 50 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tca4311a.pdf" 100 -50 60 H I C CNN
 F4 "Texas Instruments" -250 50 60 H I C CNN "Manufacturer"
-F5 "TCA4311ADGKR" 1050 100 60 H I C CNN "Man. Part Num."
+F5 "TCA4311ADR" 1050 100 60 H I C CNN "Man. Part Num."
 F6 "Digi-Key" -200 -150 60 H I C CNN "Supplier"
-F7 "296-28328-1-ND" 450 -150 60 H I C CNN "Supplier Part Num."
+F7 "296-30189-1-ND" 450 -150 60 H I C CNN "Supplier Part Num."
 $FPLIST
  TI_TCA4311A
 $ENDFPLIST
