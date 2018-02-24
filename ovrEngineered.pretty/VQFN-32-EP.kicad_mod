@@ -1,5 +1,5 @@
 (module VQFN-32-EP (layer F.Cu) (tedit 59ECD907)
-  (fp_text reference U5 (at -2.159 -3.683) (layer F.SilkS)
+  (fp_text reference REF** (at -2.159 -3.683) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1905)))
   )
   (fp_text value MICROCHIP_LAN8710 (at 0.05 -3.7) (layer F.SilkS) hide
