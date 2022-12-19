@@ -1,4 +1,4 @@
-(footprint "MOUNT_HOLE_0.25-20" (version 20211014) (generator pcbnew)
+(footprint "ZIPTIE_0.1IN" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 5A90CB22)
   (attr through_hole)
@@ -6,9 +6,9 @@
     (effects (font (size 0.762 0.762) (thickness 0.1905)))
     (tstamp 1bea6288-df93-4227-8757-c98eaa833a6f)
   )
-  (fp_text value "MOUNT_HOLE_0.25-20" (at 0.254 7.239) (layer "F.Fab") hide
+  (fp_text value "ZIPTIE_0.1IN" (at 0.254 7.239) (layer "F.Fab") hide
     (effects (font (size 0.762 0.762) (thickness 0.1905)))
     (tstamp d34385b1-fadf-4359-a8b1-59e02579d7e5)
   )
-  (pad "MNT" thru_hole circle (at 0 0) (size 11.176 11.176) (drill 6.7564) (layers *.Cu *.Mask) (tstamp 43c60605-74b4-4257-83a1-c4affa06551c))
+  (pad "" np_thru_hole oval (at 0 0) (size 2.54 6.35) (drill oval 2.54 6.35) (layers *.Mask) (tstamp 43c60605-74b4-4257-83a1-c4affa06551c))
 )
