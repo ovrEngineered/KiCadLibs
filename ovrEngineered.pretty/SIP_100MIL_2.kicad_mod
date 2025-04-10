@@ -1,10 +1,82 @@
-(module SIP_100MIL_2 (layer F.Cu) (tedit 577935DE)
-  (fp_text reference REF** (at 2.54 3.81) (layer F.SilkS)
-    (effects (font (size 0.762 0.762) (thickness 0.1905)))
-  )
-  (fp_text value SIP_100MIL_2 (at 2.54 2.54) (layer F.Fab) hide
-    (effects (font (size 0.762 0.762) (thickness 0.1905)))
-  )
-  (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+(footprint "SIP_100MIL_2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.54 3.81 0)
+		(layer "F.SilkS")
+		(uuid "62449ea3-9ba8-4e68-80e4-d9095cd3d00f")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "SIP_100MIL_2"
+		(at 2.54 2.54 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5db1628-f8d8-486f-ac7a-1b40ee88846f")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39e2b57c-acb4-446e-9e0a-8ed946f984d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76307c99-a8a4-4b13-bb19-7b92d938d9ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "010d011a-182a-4dd4-a2de-da2ebc5b7f00")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "50fe7ece-2239-4d47-ad90-8c6a1cd3abf3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/externals/ovrEngineered-libs/3D Models/68001-402HLF.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1,13 +1,104 @@
-(module FET_N_1.2A_20V (layer F.Cu) (tedit 54FC75C1)
-  (fp_text reference Ref** (at -0.0254 -2.3622) (layer F.SilkS)
-    (effects (font (size 0.762 0.762) (thickness 0.1905)))
-  )
-  (fp_text value Val** (at 0 2.4) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -1.52 -0.7) (end -1.52 0.7) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.52 -0.7) (end 1.52 0.7) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -0.95 1.012) (size 0.802 1.2192) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.95 1.012) (size 0.802 1.2192) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 0 -1.012) (size 0.802 1.2192) (layers F.Cu F.Paste F.Mask))
+(footprint "FET_N_1.2A_20V"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Ref**"
+		(at -0.0254 -2.3622 0)
+		(layer "F.SilkS")
+		(uuid "bf896cde-4523-4b03-80df-3d743cb4adac")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 2.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9e4f60c4-567b-4fd4-9aaa-031af255c6aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bf3a984-2514-4245-8ef3-a0da1477a4a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d810f1e-b50d-4207-8e2e-d2d9c393e167")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.52 -0.7)
+		(end -1.52 0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8896760f-61d8-4571-9c3a-0584d90106ce")
+	)
+	(fp_line
+		(start 1.52 -0.7)
+		(end 1.52 0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8637c339-5595-4b4c-b430-df7b7fa03667")
+	)
+	(pad "1" smd rect
+		(at -0.95 1.012)
+		(size 0.802 1.2192)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "32023427-5bf6-4e67-9be2-da579c8220d5")
+	)
+	(pad "2" smd rect
+		(at 0.95 1.012)
+		(size 0.802 1.2192)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0e83400-6265-4ccd-a8fd-22b0a0ff6c9d")
+	)
+	(pad "3" smd rect
+		(at 0 -1.012)
+		(size 0.802 1.2192)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "256770dc-39d1-435b-ba2a-bd3f2943c74a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/externals/ovrEngineered-libs/3D Models/IRLML6402TRPBF.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
 )

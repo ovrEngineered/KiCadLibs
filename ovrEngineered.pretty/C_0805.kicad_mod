@@ -1,22 +1,139 @@
-(module C_0805 (layer F.Cu) (tedit 49047394)
-  (descr "SMT capacitor, 0805")
-  (fp_text reference "" (at 0 -0.9906) (layer F.SilkS)
-    (effects (font (size 0.762 0.762) (thickness 0.1905)))
-  )
-  (fp_text value "" (at 0 0.9906) (layer F.SilkS) hide
-    (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
-  )
-  (fp_line (start 0.635 -0.635) (end 0.635 0.635) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.635 -0.635) (end -0.635 0.6096) (layer F.SilkS) (width 0.127))
-  (fp_line (start -1.016 -0.635) (end 1.016 -0.635) (layer F.SilkS) (width 0.127))
-  (fp_line (start 1.016 -0.635) (end 1.016 0.635) (layer F.SilkS) (width 0.127))
-  (fp_line (start 1.016 0.635) (end -1.016 0.635) (layer F.SilkS) (width 0.127))
-  (fp_line (start -1.016 0.635) (end -1.016 -0.635) (layer F.SilkS) (width 0.127))
-  (pad 1 smd rect (at 0.9525 0) (size 1.30048 1.4986) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -0.9525 0) (size 1.30048 1.4986) (layers F.Cu F.Paste F.Mask))
-  (model smd/capacitors/c_0805.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "C_0805"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMT capacitor, 0805")
+	(property "Reference" "Ref**"
+		(at 0 -0.9906 0)
+		(layer "F.SilkS")
+		(uuid "87dcdf97-a052-46b8-8b4d-dfeb851f086d")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0.9906 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "949378d3-38ab-4cdd-a30b-7e0ac461039e")
+		(effects
+			(font
+				(size 0.29972 0.29972)
+				(thickness 0.06096)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19ca3e2c-821b-41b2-b762-857fcec45966")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00e03924-f982-4930-aa4d-c9ca62e7d9a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.016 -0.635)
+		(end 1.016 -0.635)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95901e26-4e2c-47af-bf70-9b3d170281e5")
+	)
+	(fp_line
+		(start -1.016 0.635)
+		(end -1.016 -0.635)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17acf543-8e2e-49e9-a4c0-ec6dddf2cb82")
+	)
+	(fp_line
+		(start -0.635 -0.635)
+		(end -0.635 0.6096)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fae2511c-56a9-4d0c-a4cb-47b9a5166bba")
+	)
+	(fp_line
+		(start 0.635 -0.635)
+		(end 0.635 0.635)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e153a75-1c6d-4407-8279-2bd0cb6e0ee8")
+	)
+	(fp_line
+		(start 1.016 -0.635)
+		(end 1.016 0.635)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61b0669e-1af6-4b7e-8848-31483a567039")
+	)
+	(fp_line
+		(start 1.016 0.635)
+		(end -1.016 0.635)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "773f4387-0406-4bff-9238-0ef1fe8f5e4b")
+	)
+	(pad "1" smd rect
+		(at 0.9525 0)
+		(size 1.30048 1.4986)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c0c8e9f1-e01f-463c-a696-2b757f6d1531")
+	)
+	(pad "2" smd rect
+		(at -0.9525 0)
+		(size 1.30048 1.4986)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b9b1e246-a812-499a-a2a9-d0eae928445e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/externals/ovrEngineered-libs/3D Models/C_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

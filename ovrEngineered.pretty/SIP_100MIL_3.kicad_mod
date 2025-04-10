@@ -1,11 +1,90 @@
-(module SIP_100MIL_3 (layer F.Cu) (tedit 577935C6)
-  (fp_text reference REF** (at 2.54 3.81) (layer F.SilkS)
-    (effects (font (size 0.762 0.762) (thickness 0.1905)))
-  )
-  (fp_text value SIP_100MIL_2 (at 2.54 2.54) (layer F.Fab) hide
-    (effects (font (size 0.762 0.762) (thickness 0.1905)))
-  )
-  (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole circle (at 5.08 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+(footprint "SIP_100MIL_3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.54 3.81 0)
+		(layer "F.SilkS")
+		(uuid "72155450-bf75-4c35-b4f4-a543b1dcb729")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "SIP_100MIL_2"
+		(at 2.54 2.54 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "facd83d9-c361-486d-bd54-8bd339950545")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9336188d-9922-47d4-bc96-82f99b7ac22f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4240069-8ba9-4ae8-ab5d-75b2a35882bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "4c290ef6-5481-4394-b9fd-2e5c348da37c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "83ae931d-4aee-4581-a8aa-ff8c4d56b53b")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "46d13e2f-fb8c-4d49-94c3-956560f5d336")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/externals/ovrEngineered-libs/3D Models/68001-403HLF.STEP"
+		(offset
+			(xyz 2.54 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

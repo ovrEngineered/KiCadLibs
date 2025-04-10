@@ -1,22 +1,139 @@
-(module R_0603 (layer F.Cu) (tedit 490472AA)
-  (descr "SMT resistor, 0603")
-  (fp_text reference "" (at 0 -0.635) (layer F.SilkS)
-    (effects (font (size 0.762 0.762) (thickness 0.1905)))
-  )
-  (fp_text value "" (at 0 0.635) (layer F.SilkS) hide
-    (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
-  )
-  (fp_line (start 0.5588 0.4064) (end 0.5588 -0.4064) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.5588 -0.381) (end -0.5588 0.4064) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.8128 -0.4064) (end 0.8128 -0.4064) (layer F.SilkS) (width 0.127))
-  (fp_line (start 0.8128 -0.4064) (end 0.8128 0.4064) (layer F.SilkS) (width 0.127))
-  (fp_line (start 0.8128 0.4064) (end -0.8128 0.4064) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.8128 0.4064) (end -0.8128 -0.4064) (layer F.SilkS) (width 0.127))
-  (pad 1 smd rect (at 0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask))
-  (model smd/capacitors/c_0603.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "R_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMT resistor, 0603")
+	(property "Reference" "Ref**"
+		(at 0 -0.635 0)
+		(layer "F.SilkS")
+		(uuid "3711d6cf-5536-4296-9398-feab0ac91aff")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0.635 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0d874e20-d300-4ab6-a8d7-ecf39f463e00")
+		(effects
+			(font
+				(size 0.20066 0.20066)
+				(thickness 0.04064)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0374468e-5b7d-4ddd-acd2-2bb891e9f30a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "100ae6fc-9769-49e2-9400-56688d661aaf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.8128 -0.4064)
+		(end 0.8128 -0.4064)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92a98387-f984-424a-9b7e-12bbe056abb0")
+	)
+	(fp_line
+		(start -0.8128 0.4064)
+		(end -0.8128 -0.4064)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "910b039c-42df-445a-af20-35982e945662")
+	)
+	(fp_line
+		(start -0.5588 -0.381)
+		(end -0.5588 0.4064)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b30b1da-4ffe-4bcd-8c7b-06b43b0afae1")
+	)
+	(fp_line
+		(start 0.5588 0.4064)
+		(end 0.5588 -0.4064)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7de2c4f-fd95-41be-8804-3b9d72812fb2")
+	)
+	(fp_line
+		(start 0.8128 -0.4064)
+		(end 0.8128 0.4064)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68018fbd-7d37-4ec9-abb4-0e6ab9d9e57f")
+	)
+	(fp_line
+		(start 0.8128 0.4064)
+		(end -0.8128 0.4064)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eca58c63-a160-4728-b165-99ebd167f62c")
+	)
+	(pad "1" smd rect
+		(at 0.75184 0)
+		(size 0.89916 1.00076)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fe185baf-c26b-41de-a54a-38da8a188ded")
+	)
+	(pad "2" smd rect
+		(at -0.75184 0)
+		(size 0.89916 1.00076)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b9e3f14a-881e-4c2a-a287-cc01aae5fea4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/externals/ovrEngineered-libs/3D Models/R_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
